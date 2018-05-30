@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>Médiathèque3000</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -30,9 +30,9 @@
 </head>
 
 <body>
-
+    <h1>Nouveautés</h1>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top text-white">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,25 +41,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="#">Project name</a>
+                <a class="navbar-brand" href="#">Médiathèque3000</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
+                    <li class="active"><a href="#">Accueil</a></li>
+                    <li><a href="#about">Adhérent</a></li>
+                    <li><a href="#contact">Bibliothèque</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -67,37 +55,42 @@
     </nav>
 
     <!-- Begin page content -->
+
     <div class="container">
+
         <div class="tab-nouveautes row">
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="new center-block"></div>
-                <a href="objet.html">L'Appel de Cthulhu</a>
+                <div class="text-new"><a href="objet.html">L'Appel de Cthulhu</a></div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="new center-block"></div>
-                <a href=#>La Communauté de l'Anneau</a>
+                <div class="text-new"><a href=#>La Communauté de l'Anneau</a></div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="new center-block"></div>
-                <a href=#>The Room</a></div>
-            <div class="col-xs-6 col-sm-4 col-md-3">
-                <div class="new center-block"></div>
-                <a href=#>Godless</a>
+                <div class="text-new"><a href=#>The Room</a></div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="new center-block"></div>
-                <a href=#>Captain Fantastic</a>
+                <div class="text-new"><a href=#>Godless</a></div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <div class="new center-block"></div>
-                <a href=#>Captain Fantastic</a>
+                <div class="text-new"><a href=#>Captain Fantastic</a></div>
             </div>
         </div>
     </div>
+    <!-- /container -->
+    <h1>Emprunts</h1>
+    <div class="container">
 
+
+    </div>
+    <!-- /container -->
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
+            <p class="text-white">Médiathèque3000&#8482; by <a href="https://twitter.com/Fulgryn" class="links">@Fulgryn</a> 2018 Tout droits réservés</p>
         </div>
     </footer>
     <!-- /container -->
@@ -105,6 +98,7 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
+    <script src="script.js"></script>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->

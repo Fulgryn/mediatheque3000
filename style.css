@@ -8,7 +8,40 @@ html {
 
 body {
     /* Margin bottom by footer height */
+    margin-top: 60px;
     margin-bottom: 60px;
+    color:#EEE;
+    background-color: #555;
+}
+.navbar{
+    color: #EEE;
+    background-color: #333;
+    border-color: #090;
+}
+
+.navbar-default .navbar-brand{
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover{
+    color: #090;
+    background-color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #090;
+    color: #fff
+}
+
+/* navbar - footer */
+a {
+    
+    color:#fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#090;
 }
 
 .footer {
@@ -17,20 +50,33 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #333;
 }
 
 
 /* Custom page CSS
 -------------------------------------------------- */
 
-/* Not required for template or sticky footer method. */
 
+
+h1 {
+    padding: 10px 0 10px 10%;
+    background-color: #060;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+body {
+    
+}
+/* nouveautés- etc */
 body > .container {
     padding: 60px 15px 0;
 }
 
-.container .text-muted {
+.container .text-white {
     margin: 20px 0;
 }
 
@@ -48,41 +94,41 @@ code {
     max-width: 185px;
     height: 278px;
     border-radius: 5px 5px 0 0;
-
     background-color: #333;
     border-radius: 5px;
 }
 
 .tab-nouveautes {
     width: 100%;
+    
 }
 
-.tab-nouveautes div:nth-child(1) div {
+.tab-nouveautes div:nth-child(1) div.new {
     background: url("https://images-na.ssl-images-amazon.com/images/I/51d9-bzD8JL._SX301_BO1,204,203,200_.jpg") no-repeat center;
-
+    background-color: #333;
     background-size: contain;
 
 }
 
-.tab-nouveautes div:nth-child(2) div {
+.tab-nouveautes div:nth-child(2) div.new {
     background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/1rF04Kk1eunZHk9OHPFwv8hllRF.jpg") no-repeat center;
     background-color: #333;
     background-size: contain;
 }
 
-.tab-nouveautes div:nth-child(3) div {
+.tab-nouveautes div:nth-child(3) div.new {
     background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/aUC39cFC2KO8CJ0EV0ijIJRr3PT.jpg") no-repeat center;
     background-color: #333;
     background-size: contain;
 }
 
-.tab-nouveautes div:nth-child(4) div {
+.tab-nouveautes div:nth-child(4) div.new {
     background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/qYvCNcMyTouoHvJu0ddStndDSeo.jpg") no-repeat center;
     background-color: #333;
     background-size: contain;
 }
 
-.tab-nouveautes div:nth-child(5) div {
+.tab-nouveautes div:nth-child(5) div.new {
     background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/9I9Yjjneqf2Bm6VmZdqImD7RJ3d.jpg") no-repeat center;
     background-color: #333;
     background-size: contain;
@@ -92,16 +138,20 @@ code {
 .tab-nouveautes > div {
     color: white;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     text-decoration: none;
     color: #FFF;
+    
+}
+
+.text-new{
+    padding: 5px 0px;
 }
 
 .row {
     margin-bottom: 20px;
     margin-left: 0px;
     margin-right:0px;
-
 }
 
 .row .row {
@@ -109,53 +159,6 @@ code {
     margin-bottom: 0;
 }
 
-.col-lg-1,
-.col-lg-10,
-.col-lg-11,
-.col-lg-12,
-.col-lg-2,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5,
-.col-lg-6,
-.col-lg-7,
-.col-lg-8,
-.col-lg-9,
-.col-md-1,
-.col-md-10,
-.col-md-11,
-.col-md-12,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.col-sm-1,
-.col-sm-10,
-.col-sm-11,
-.col-sm-12,
-.col-sm-2,
-.col-sm-3,
-.col-sm-4,
-.col-sm-5,
-.col-sm-6,
-.col-sm-7,
-.col-sm-8,
-.col-sm-9,
-.col-xs-1,
-.col-xs-10,
-.col-xs-11,
-.col-xs-12,
-.col-xs-2,
-.col-xs-3,
-.col-xs-4,
-.col-xs-5,
-.col-xs-6,
-.col-xs-7,
-.col-xs-8,
-.col-xs-9 {
+[class^="col-"]{
     padding: 0;
 }
