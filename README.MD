@@ -1,0 +1,1 @@
+Same as "mediatheque2000" but with bootstrap

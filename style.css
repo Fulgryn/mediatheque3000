@@ -1,0 +1,161 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.new {
+    float: none;
+    max-width: 185px;
+    height: 278px;
+    border-radius: 5px 5px 0 0;
+
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.tab-nouveautes {
+    width: 100%;
+}
+
+.tab-nouveautes div:nth-child(1) div {
+    background: url("https://images-na.ssl-images-amazon.com/images/I/51d9-bzD8JL._SX301_BO1,204,203,200_.jpg") no-repeat center;
+
+    background-size: contain;
+
+}
+
+.tab-nouveautes div:nth-child(2) div {
+    background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/1rF04Kk1eunZHk9OHPFwv8hllRF.jpg") no-repeat center;
+    background-color: #333;
+    background-size: contain;
+}
+
+.tab-nouveautes div:nth-child(3) div {
+    background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/aUC39cFC2KO8CJ0EV0ijIJRr3PT.jpg") no-repeat center;
+    background-color: #333;
+    background-size: contain;
+}
+
+.tab-nouveautes div:nth-child(4) div {
+    background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/qYvCNcMyTouoHvJu0ddStndDSeo.jpg") no-repeat center;
+    background-color: #333;
+    background-size: contain;
+}
+
+.tab-nouveautes div:nth-child(5) div {
+    background: url("https://image.tmdb.org/t/p/w185_and_h278_bestv2/9I9Yjjneqf2Bm6VmZdqImD7RJ3d.jpg") no-repeat center;
+    background-color: #333;
+    background-size: contain;
+
+}
+
+.tab-nouveautes > div {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.row {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right:0px;
+
+}
+
+.row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    padding: 0;
+}
